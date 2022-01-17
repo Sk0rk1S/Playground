@@ -3,7 +3,7 @@ pragma solidity >=0.7.0 <0.9.0;
 import "./aave/FlashLoanReceiverBase.sol";
 import "./aave/ILendingPoolAddressesProvider.sol";
 import "./aave/ILendingPool.sol";
-
+#This code doesnt do anything...yet?
 contract Ethgen is FlashLoanReceiverBase {
    uint ETHDNA = 256;
    uint ETHMODULUS = 10 ** ETHDNA;
